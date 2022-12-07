@@ -1,0 +1,110 @@
+PODS:
+  - Aspects (1.4.1)
+  - MJRefresh (3.5.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.9.5):
+    - SDWebImage/Core (= 5.9.5)
+  - SDWebImage/Core (5.9.5)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+  - zykjExt (1.00.06):
+    - Aspects (~> 1.4.1)
+    - ReactiveObjC (~> 3.1.1)
+    - SDWebImage (~> 5.9.2)
+    - YYCategories (~> 1.0.4)
+    - YYModel (~> 1.0.4)
+    - YYText (~> 1.0.7)
+    - zykjExt/AFNetworking (= 1.00.06)
+    - zykjExt/Log (= 1.00.06)
+    - zykjExt/Masonry (= 1.00.06)
+    - zykjExt/MJRefresh (= 1.00.06)
+    - zykjExt/SDWebImage (= 1.00.06)
+  - zykjExt/AFNetworking (1.00.06):
+    - Aspects (~> 1.4.1)
+    - ReactiveObjC (~> 3.1.1)
+    - SDWebImage (~> 5.9.2)
+    - YYCategories (~> 1.0.4)
+    - YYModel (~> 1.0.4)
+    - YYText (~> 1.0.7)
+  - zykjExt/Log (1.00.06):
+    - Aspects (~> 1.4.1)
+    - ReactiveObjC (~> 3.1.1)
+    - SDWebImage (~> 5.9.2)
+    - YYCategories (~> 1.0.4)
+    - YYModel (~> 1.0.4)
+    - YYText (~> 1.0.7)
+  - zykjExt/Masonry (1.00.06):
+    - Aspects (~> 1.4.1)
+    - ReactiveObjC (~> 3.1.1)
+    - SDWebImage (~> 5.9.2)
+    - YYCategories (~> 1.0.4)
+    - YYModel (~> 1.0.4)
+    - YYText (~> 1.0.7)
+  - zykjExt/MJRefresh (1.00.06):
+    - Aspects (~> 1.4.1)
+    - ReactiveObjC (~> 3.1.1)
+    - SDWebImage (~> 5.9.2)
+    - YYCategories (~> 1.0.4)
+    - YYModel (~> 1.0.4)
+    - YYText (~> 1.0.7)
+  - zykjExt/SDWebImage (1.00.06):
+    - Aspects (~> 1.4.1)
+    - ReactiveObjC (~> 3.1.1)
+    - SDWebImage (~> 5.9.2)
+    - YYCategories (~> 1.0.4)
+    - YYModel (~> 1.0.4)
+    - YYText (~> 1.0.7)
+  - zykjMacro (1.00.08)
+  - zykjUtils (1.00.05):
+    - zykjMacro
+    - zykjUtils/CommonLibrary (= 1.00.05)
+    - zykjUtils/no-arc (= 1.00.05)
+  - zykjUtils/CommonLibrary (1.00.05):
+    - zykjMacro
+    - zykjUtils/CommonLibrary/FCUUID (= 1.00.05)
+    - zykjUtils/CommonLibrary/NetReachability (= 1.00.05)
+  - zykjUtils/CommonLibrary/FCUUID (1.00.05):
+    - zykjMacro
+  - zykjUtils/CommonLibrary/NetReachability (1.00.05):
+    - zykjMacro
+  - zykjUtils/no-arc (1.00.05):
+    - zykjMacro
+
+DEPENDENCIES:
+  - MJRefresh (~> 3.5.0)
+  - zykjExt
+  - zykjMacro
+  - zykjUtils
+
+SPEC REPOS:
+  http://git.thedeer.cn/iosteam/zykjspecs.git:
+    - zykjExt
+    - zykjMacro
+    - zykjUtils
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Aspects
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
+    - YYCategories
+    - YYModel
+    - YYText
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  zykjExt: 6ac455a80081fcb2d89cecda49d4a1327a572f29
+  zykjMacro: 5c26978ff024e08fbdbf821ead43986281926dee
+  zykjUtils: 67e07b9c6d581245589f0dbd2d45cf9d3005558c
+
+PODFILE CHECKSUM: 847eea577e9840eb2c60b9b44b3fab05539e4b01
+
+COCOAPODS: 1.11.2

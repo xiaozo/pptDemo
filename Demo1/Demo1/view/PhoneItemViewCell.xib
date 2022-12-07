@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="91" id="KGk-i7-Jjw" customClass="PhoneItemViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="131" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fa-5P-OaJ" userLabel="phone">
+                        <rect key="frame" x="20" y="15" width="24" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEs-8v-nXP" userLabel="site">
+                        <rect key="frame" x="20" y="42.5" width="29" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" systemColor="systemGray2Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccW-eo-TXb">
+                        <rect key="frame" x="275" y="33.5" width="25" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="Mau-If-9a8"/>
+                            <constraint firstAttribute="height" constant="24" id="zmB-OT-l5v"/>
+                        </constraints>
+                        <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTh-xX-iQ3" userLabel="time">
+                        <rect key="frame" x="241" y="37" width="29" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" systemColor="systemGray2Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lEs-8v-nXP" firstAttribute="leading" secondItem="6Fa-5P-OaJ" secondAttribute="leading" id="8NT-Jv-8q5"/>
+                    <constraint firstItem="6Fa-5P-OaJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" priority="750" constant="15" id="E9j-se-mXJ"/>
+                    <constraint firstItem="6Fa-5P-OaJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Hrd-hb-hwd"/>
+                    <constraint firstItem="ccW-eo-TXb" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ztj-rq-SlJ"/>
+                    <constraint firstAttribute="trailing" secondItem="mTh-xX-iQ3" secondAttribute="trailing" constant="50" id="eXD-dT-KfL"/>
+                    <constraint firstItem="mTh-xX-iQ3" firstAttribute="centerY" secondItem="ccW-eo-TXb" secondAttribute="centerY" id="gkv-xL-JHF"/>
+                    <constraint firstItem="lEs-8v-nXP" firstAttribute="top" secondItem="6Fa-5P-OaJ" secondAttribute="bottom" constant="8" symbolic="YES" id="rFQ-cs-X87"/>
+                    <constraint firstItem="ccW-eo-TXb" firstAttribute="leading" secondItem="mTh-xX-iQ3" secondAttribute="trailing" constant="5" id="uCc-Dw-sZy"/>
+                    <constraint firstAttribute="bottom" secondItem="lEs-8v-nXP" secondAttribute="bottom" priority="750" constant="15" id="vJT-ly-B9X"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="btn" destination="ccW-eo-TXb" id="PfL-dS-h64"/>
+                <outlet property="phoneLbl" destination="6Fa-5P-OaJ" id="ThX-4C-sq9"/>
+                <outlet property="siteLbl" destination="lEs-8v-nXP" id="Pdh-db-iJE"/>
+                <outlet property="timeLbl" destination="mTh-xX-iQ3" id="zmT-Kf-O0R"/>
+            </connections>
+            <point key="canvasLocation" x="-552.17391304347825" y="33.816964285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

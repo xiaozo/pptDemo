@@ -1,0 +1,11 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Aspects" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/ReactiveObjC" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/YYCategories" "${PODS_ROOT}/Headers/Public/YYModel" "${PODS_ROOT}/Headers/Public/YYText" "${PODS_ROOT}/Headers/Public/zykjExt" "${PODS_ROOT}/Headers/Public/zykjMacro" "${PODS_ROOT}/Headers/Public/zykjUtils"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Aspects" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/YYCategories" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel" "${PODS_CONFIGURATION_BUILD_DIR}/YYText" "${PODS_CONFIGURATION_BUILD_DIR}/zykjExt" "${PODS_CONFIGURATION_BUILD_DIR}/zykjUtils"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Aspects" -l"MJRefresh" -l"ReactiveObjC" -l"SDWebImage" -l"YYCategories" -l"YYModel" -l"YYText" -l"c++" -l"resolv" -l"sqlite3" -l"z" -l"zykjExt" -l"zykjUtils" -framework "Accelerate" -framework "AssetsLibrary" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreMedia" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "UIKit" -framework "VideoToolbox"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
